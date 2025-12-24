@@ -19,3 +19,7 @@ The project is very basic, and not optimized, but it predicts well in 1000 epoch
 This project handles batch processing.
 I have not converted the standardized predicted value back to actual scale yet.
 I am yet to integrate my Adam, RMS, AdaGrad or Momentum optimizer functions to this project.
+
+
+## Architecture & Derivation
+You may find the manual derivations for the forward and backward passes, focusing on maintaining dimensional consistency across layers, in the docs folder.
